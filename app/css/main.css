@@ -2,12 +2,34 @@ body, html {
 	/*height: 100%;*/
 	margin: 0;
 	font-size: 16px;
-	background-color: #000;
+	background-color: #e3e3e3;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 40%;
+	height: 60%;
+	background-color: white;
+	box-shadow: 0 70px 80px -40px rgba(0, 0, 0, 0.4), 0 5px 20px rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+
+.section {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-section {
+	height: 100vh;
+	background-color: black;
 }
 
 .header-bg {
 	background-image: url("../imgs/mydeskdark.png");
-	height: 93vh;
+	height: 100vh;
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,7 +61,7 @@ body, html {
 .scroll {
 	color: white;
 	position: absolute;
-	bottom: 2%;
+	bottom: 1%;
 	width: 100%;
 	text-align: center;
 	font-size: .8em;
@@ -47,7 +69,41 @@ body, html {
 	font-family: "Open Sans", arial;
 }
 
-.about {
-	width: 100%;
-	height: 100vh;
+.fa-arrow-circle-o-down {
+	font-size: 1.3em;
+}
+
+/*About*/
+
+
+.about-section {
+	background-color: #e8f0f0;
+}
+
+.about-title {
+	position: absolute;
+	left: 55%;
+	top: -50px;
+	font-size: 4em;
+	font-family: 'Shadows Into Light Two', cursive;
+	transform: rotate(-10deg);
+}
+
+.img-contain img {
+	height: 580px;
+	width: auto;
+	position: absolute;
+	top: -50px;
+	left: -30px;
+	box-shadow: 0 70px 70px -40px rgba(0, 0, 0, 0.4), 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+	max-width: 400px;
+	position: absolute;
+	left: 45%;
+	top: 50px;
+	font-family: "Open Sans", arial;
+	font-size: 1.1em;
+	line-height: 300%;
 }
