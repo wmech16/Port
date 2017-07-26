@@ -1,0 +1,53 @@
+body, html {
+	/*height: 100%;*/
+	margin: 0;
+	font-size: 16px;
+	background-color: #000;
+}
+
+.header-bg {
+	background-image: url("../imgs/mydeskdark.png");
+	height: 93vh;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10%;
+	padding-top: 5%;
+}
+
+.welcome {
+	font-family: 'Kreon', serif;
+	color: white;
+	font-size: 10em;
+	letter-spacing: 5px;
+	z-index: 101;
+}
+
+.welcome-text {
+	font-family: 'Kreon', serif;
+	color: white;
+	font-size: 2em;
+	z-index: 101;
+	
+}
+
+.scroll {
+	color: white;
+	position: absolute;
+	bottom: 2%;
+	width: 100%;
+	text-align: center;
+	font-size: .8em;
+	letter-spacing: 3px;
+	font-family: "Open Sans", arial;
+}
+
+.about {
+	width: 100%;
+	height: 100vh;
+}
