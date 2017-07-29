@@ -16,22 +16,20 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-/*a, a:link, a:visited, a:active {
-	text-decoration: none;
-	color: #C2F2D0;
-}*/
-
-
-
-#header {
+.section {
 	color: #f7f7f7;
 	font-family: 'Grotesk', sans-serif;
 	letter-spacing: -0.02em;
-	font-size: 8em;
+	line-height: 0.90em;
 	width: calc(100% - 170px);
 	padding: 80px 85px 0 85px;
-	line-height: 0.90em;
-	height: 100vh;
+}
+
+/*header*/
+
+#header {
+	font-size: 8em;
+	height: 170vh;
 	position: relative;
 }
 
@@ -40,13 +38,82 @@ body {
 	color: #C2F2D0;
 }
 
-#header a:active {
-	color: #C2F2D0;
-}
-
 #header a {
 	color: #C2F2D0;
 	text-decoration: none;
+}
+
+#header a:hover {
+	text-decoration: underline line-through;
+}
+
+/*portfolio*/
+
+#portfolio {
+	height: 160vh;
+	font-size: 3.2em;
+	color: #222;
+	background-color: #f7f7f7;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.port {
+	display: flex;
+}
+
+.second, .third { padding-top: 80px; }
+
+.port img {
+	width: 100%;
+	border-radius: 2px;
+	filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.port img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+
+.text-first, .text-third {
+	padding-left: 20px;
+}
+
+.text-second { 
+	padding-right: 20px;
+	text-align: end;
+ }
+
+ .github {
+ 	text-align: center;
+ 	padding-top: 65px;
+ 	font-size: .5em;
+ }
+
+ .github a {
+ 	color: #222;
+ }
+
+ /*contact*/
+#contact {
+	height: 30vh;
+	font-size: 2em;
+	display: flex;
+}
+
+#contact a {
+	font-family: 'Shadows Into Light Two', cursive;
+	color: #C2F2D0;
+	text-decoration: none;
+}
+
+#contact a:hover {
+	text-decoration: underline line-through;
 }
 
 
