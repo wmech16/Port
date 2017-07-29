@@ -16,6 +16,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+ul {
+	list-style: none;
+}
+
 .section {
 	color: #f7f7f7;
 	font-family: 'Grotesk', sans-serif;
@@ -115,6 +119,16 @@ body {
 #contact a:hover {
 	text-decoration: underline line-through;
 }
+
+#social li {
+	display: inline-block;
+}
+
+.copyright {
+	font-size: .4em;
+	opacity: .2;
+}
+
 
 
 
